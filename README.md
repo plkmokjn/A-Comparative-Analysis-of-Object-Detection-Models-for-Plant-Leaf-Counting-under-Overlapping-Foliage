@@ -45,6 +45,7 @@ The datasets used in this project is hosted on Google Drive. You can access the 
 
 ### System Requirements
 * Google Colab utilizing the High-RAM environment and T4 GPU
+* Google Drive with at least 10GB free space
 * Python 3.11.13
 * PyTorch 2.6.0
 * Torchvision 0.21.0
