@@ -7,7 +7,7 @@ Comparative Analysis of three foundational object detection models: YOLOv8, YOLO
 This project compares three computer vision models: YOLOv8, YOLOv12, and Faster R-CNN. The script provided is for training and evaluating the three models on multiple datasets.
 
 ### Datasets
-The datasets used in this project is hosted on Google Drive. You can access the data via the following link:
+The datasets used in this project is hosted on Google Drive. You can access the data to download via the following links:
 - [Raw Dataset](https://drive.google.com/drive/folders/1SqZVu7KqB2eOgOt82ETEhWRWwm2cNwmN?usp=sharing)
 - [train_split_complete_dataset](https://drive.google.com/drive/folders/13MaM3n2fJA5EUR2EBFwm7Byr42MP6Ge3?usp=sharing)
 - [tiled_dataset](https://drive.google.com/drive/folders/1tl77CQ1zjtLOq4uHEfYI4_9YmdYOTDJL?usp=sharing)
