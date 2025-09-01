@@ -45,6 +45,10 @@ The datasets used in this project is hosted on Google Drive. You can access the 
 ### System Requirements
 * Google Colab
 
+#### (Optional)
+* Experiments were conducted on Google Colab under Python 3.11.13, utilizing the High-RAM environment and T4 GPU. The YOLO models were trained with the official Ultralytics
+package (v8.3.161) with PyTorch 2.6.0 and Torchvision 0.21.0. Faster R-CNN was implemented with Torchvision’s fasterrcnn_resnet50_fpn.
+
 ### Dependencies
 In order to run the script, the following pakcages must be installed in your Colab environment.
 ```
