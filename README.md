@@ -24,7 +24,6 @@ In order to run the scripts, the following pakcages must be installed in your Co
 
 ## Instructions 
 
-"""# Instructions
 1. Save datasets to google drive. Use the following directory:
 ```
 /content/drive/MyDrive/tiled
