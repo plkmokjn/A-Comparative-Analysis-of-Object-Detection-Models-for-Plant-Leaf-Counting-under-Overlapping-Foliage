@@ -86,7 +86,6 @@ evaluate_model(model = 'YOLOv12', model_size = 's', dataset = 'default', version
 ```
 confidence_screeplot(model = 'YOLOv12', model_size = 's', dataset = 'default', version = '1')
 ```
-"""
 
 ## License
 MIT License - You are free to use and modify the code
