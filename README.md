@@ -4,7 +4,7 @@ A Comparative Analysis of three foundational object detection models: YOLOv8, YO
 ## Overview
 This project compares three computer vision models: YOLOv8, YOLOv12, and Faster R-CNN. The script provided is for training and evaluating the three models on multiple datasets.
 
-## Model Performance Comparison
+### Model Performance Comparison
 | Model      | Size | Epochs | Precision | Recall | mAP@.50 | mAP@.50-.95 | Batch | Image Size | Dataset         | IoU  | MSE (Count) | MAE (Count) | MAPE   |
 |------------|------|--------|-----------|--------|---------|-------------|-------|------------|-----------------|------|-------------|-------------|--------|
 | YOLOv8     | N    | 50     | 0.657     | 0.483  | 0.546   | 0.237       | 16    | 640x640    | 298 images      | 0.584| 4684.22     | 40.65       | 31.80% |
@@ -39,9 +39,7 @@ This project compares three computer vision models: YOLOv8, YOLOv12, and Faster 
 The datasets used in this project is hosted on Google Drive. You can access the data to download via the following links:
 - [train_split_complete_dataset](https://drive.google.com/drive/folders/13MaM3n2fJA5EUR2EBFwm7Byr42MP6Ge3?usp=sharing)
 - [tiled_dataset](https://drive.google.com/drive/folders/1tl77CQ1zjtLOq4uHEfYI4_9YmdYOTDJL?usp=sharing)
-
 **Note**: All models used the train_split_complete_dataset for training. Only YOLO models were additonally trained with tiled_dataset. 
-
 
 ### System Requirements
 * Google Colab
