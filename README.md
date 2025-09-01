@@ -86,6 +86,34 @@ evaluate_model(model = 'YOLOv12', model_size = 's', dataset = 'default', version
 ```
 confidence_screeplot(model = 'YOLOv12', model_size = 's', dataset = 'default', version = '1')
 ```
+## Citations
+
+**Roboflow**:
+```
+B. Dwyer, J. Nelson, T. Hansen et al., “Roboflow (version 1.0) [soft-
+ware],” https://roboflow.com, 2025, computer vision.
+```
+
+**YOLOv12**
+```
+Y. Tian, Q. Ye, and D. Doermann, “Yolov12: Attention-centric real-time
+object detectors,” arXiv preprint arXiv:2502.12524, 2025.
+```
+
+**YOLOv8**
+```
+G. Jocher, J. Qiu, and A. Chaurasia, “Ultralytics YOLO,” Jan. 2023.
+[Online]. Available: https://github.com/ultralytics/ultralytics
+```
+
+**Faster R-CNN
+```
+S. Ren, K. He, R. Girshick, and J. Sun, “Faster r-cnn: Towards real-time
+object detection with region proposal networks,” IEEE transactions on
+pattern analysis and machine intelligence, vol. 39, no. 6, pp. 1137–1149,
+2016
+```
+
 
 ## License
 MIT License - You are free to use and modify the code
