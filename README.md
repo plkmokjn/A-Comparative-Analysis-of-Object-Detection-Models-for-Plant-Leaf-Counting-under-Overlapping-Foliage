@@ -5,7 +5,6 @@ A Comparative Analysis of three foundational object detection models: YOLOv8, YO
 ## Overview
 
 ## Model Performance Comparison
-
 | Model      | Size | Epochs | Precision | Recall | mAP@.50 | mAP@.50-.95 | Batch | Image Size | Dataset         | IoU  | MSE (Count) | MAE (Count) | MAPE   |
 |------------|------|--------|-----------|--------|---------|-------------|-------|------------|-----------------|------|-------------|-------------|--------|
 | YOLOv8     | N    | 50     | 0.657     | 0.483  | 0.546   | 0.237       | 16    | 640x640    | 298 images      | 0.584| 4684.22     | 40.65       | 31.80% |
@@ -51,7 +50,7 @@ The datasets used in this project is hosted on Google Drive. You can access the 
 * Google Colab
 
 ### Dependencies
-In order to run the scripts, the following pakcages must be installed in your Colab environment.
+In order to run the script, the following pakcages must be installed in your Colab environment.
 ```
 !pip install --upgrade git+https://github.com/sunsmarterjie/yolov12.git
 !pip install -q supervision flash-attn
@@ -64,13 +63,13 @@ In order to run the scripts, the following pakcages must be installed in your Co
 /content/drive/MyDrive/tiled_dataset
 /content/drive/MyDrive/train_split_complete_dataset
 ```
-2. To train model, execute function **train_model**:
+2. To train the model(s), execute function **train_model**:
 ```
 train_model(model = 'YOLOv12', model_size = 's', dataset = 'default', version = '1')
 ```
 **Note**: Possible models are 'YOLOv8', 'YOLOv12', 'Faster R-CNN'. Possible sizes varies for each YOLO model. YOLOv8 has 'n', 'm', 'l'. YOLOv12 has 's', 'm', 'l', 'x'. There are two datasets available: 'default' and 'tiled'. version is for naming convention for saving models.
 
-3. To evaluate trained models, execute function **evalute_model**:
+3. To evaluate the trained model(s), execute function **evalute_model**:
 ```
 evaluate_model(model = 'YOLOv12', model_size = 's', dataset = 'default', version = '1', confidence = 0.25, save_results = True)
 ```
