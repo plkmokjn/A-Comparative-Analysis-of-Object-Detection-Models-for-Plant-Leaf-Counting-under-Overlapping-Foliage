@@ -1,8 +1,8 @@
 # A-Comparative-Analysis-of-Object-Detection-Models-for-Plant-Leaf-Counting-under-Overlapping-Foliage-Conditions
-
 A Comparative Analysis of three foundational object detection models: YOLOv8, YOLOv12, and Faster R-CNN for leaf cointing in dense foliage. Evaluated on all performance metrics: mAP50, mAP50-95, IOU, MAE, and MAPE.
 
 ## Overview
+This project compares three computer vision models: YOLOv8, YOLOv12, and Faster R-CNN. The script provided is for training and evaluating the three models on multiple datasets.
 
 ## Model Performance Comparison
 | Model      | Size | Epochs | Precision | Recall | mAP@.50 | mAP@.50-.95 | Batch | Image Size | Dataset         | IoU  | MSE (Count) | MAE (Count) | MAPE   |
@@ -34,9 +34,6 @@ A Comparative Analysis of three foundational object detection models: YOLOv8, YO
 | YOLOv12    | X    | 100    | 0.692     | 0.493  | 0.563   | 0.262       | 2     | 960x960    | Fixed dataset   | 0.604| 1387.13     | 23.27       | 21.42% |
 | YOLOv12    | S    | 100    | 0.737     | 0.636  | 0.718   | 0.391       | 2     | 1216x1216  | Tiled Dataset   | 0.656| 27.58       | 3.43        | 26.84% |
 | Faster R-CNN| N/A  | 100    | 0.729     | 0.456  | 0.417   | 0.182       | N/A   | 800x1333px | 300 images      | 0.605| 6128.90     | 44.43       | 34.29% |
-
-
-This project compares three computer vision models: YOLOv8, YOLOv12, and Faster R-CNN. The script provided is for training and evaluating the three models on multiple datasets.
 
 ### Datasets
 The datasets used in this project is hosted on Google Drive. You can access the data to download via the following links:
