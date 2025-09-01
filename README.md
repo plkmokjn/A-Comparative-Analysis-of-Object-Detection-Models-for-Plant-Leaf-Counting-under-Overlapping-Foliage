@@ -58,11 +58,17 @@ In order to run the script, the following pakcages must be installed in your Col
 /content/drive/MyDrive/tiled_dataset
 /content/drive/MyDrive/train_split_complete_dataset
 ```
+
 2. To train the model(s), execute function **train_model**:
 ```
 train_model(model = 'YOLOv12', model_size = 's', dataset = 'default', version = '1')
 ```
-**Note**: Possible models are 'YOLOv8', 'YOLOv12', 'Faster R-CNN'. Possible sizes varies for each YOLO model. YOLOv8 has 'n', 'm', 'l'. YOLOv12 has 's', 'm', 'l', 'x'. There are two datasets available: 'default' and 'tiled'. version is for naming convention for saving models.
+**Note**  
+Supported models: `YOLOv8`, `YOLOv12`, `Faster R-CNN`  
+- **YOLOv8** sizes: `n`, `m`, `l`  
+- **YOLOv12** sizes: `s`, `m`, `l`, `x`  
+Available datasets: `default`, `tiled`  
+The `version` parameter defines the naming convention for saved models.
 
 3. To evaluate the trained model(s), execute function **evalute_model**:
 ```
