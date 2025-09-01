@@ -12,6 +12,9 @@ The datasets used in this project is hosted on Google Drive. You can access the 
 - [train_split_complete_dataset](https://drive.google.com/drive/folders/13MaM3n2fJA5EUR2EBFwm7Byr42MP6Ge3?usp=sharing)
 - [tiled_dataset](https://drive.google.com/drive/folders/1tl77CQ1zjtLOq4uHEfYI4_9YmdYOTDJL?usp=sharing)
 
+**Note**: All models used the train_split_complete_dataset for training. Only YOLO models were additonally trained with tiled_dataset. 
+
+
 ### System Requirements
 * Google Colab
 
