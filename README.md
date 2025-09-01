@@ -29,7 +29,7 @@ In order to run the scripts, the following pakcages must be installed in your Co
 
 1. Save datasets to google drive. Use the following directory:
 ```
-/content/drive/MyDrive/tiled
+/content/drive/MyDrive/tiled_dataset
 /content/drive/MyDrive/train_split_complete_dataset
 ```
 2. To train model, execute function **train_model**:
@@ -49,15 +49,6 @@ evaluate_model(model = 'YOLOv12', model_size = 's', dataset = 'default', version
 confidence_screeplot(model = 'YOLOv12', model_size = 's', dataset = 'default', version = '1')
 ```
 """
-
-
-
-
-
-
-
-
-
 
 ## License
 MIT License - You are free to use and modify the code
